@@ -19,7 +19,7 @@ spec:
       - image: egutierrez777/go-app:v1
         name: go-app
         resources: {}
-	livenessProbe:
+        livenessProbe:
           httpGet:
             path: /health
             port: 8080
